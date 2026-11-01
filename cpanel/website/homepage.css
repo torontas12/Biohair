@@ -1,0 +1,1152 @@
+:root {
+  --navy:#00377d;
+  --ink:#06317d;
+  --muted:#4c6694;
+  --line:#dce8f4;
+  --pale:#eff6fc}
+* {
+  box-sizing:border-box}
+html {
+  scroll-behavior:smooth}
+body {
+  margin:0;
+  background:#fff;
+  color:var(--ink);
+  font:16px/1.4 Arial,Helvetica,sans-serif}
+a {
+  color:inherit}
+img {
+  display:block;
+  max-width:100%}
+h1,h2,h3,p {
+  margin:0}
+h1,h2 {
+  font-family:Georgia,'Times New Roman',serif;
+  letter-spacing:-.8px}
+h2 {
+  font-size:27px;
+  line-height:1.15;
+  margin-bottom:10px}
+h3 {
+  font-size:15px;
+  line-height:1.2}
+sup {
+  font-size:.45em;
+  vertical-align:super}
+button,a,summary {
+  -webkit-tap-highlight-color:transparent}
+a:focus-visible,button:focus-visible,summary:focus-visible {
+  outline:3px solid #65a320;
+  outline-offset:4px}
+.sr-only,.skip-link:not(:focus) {
+  position:absolute;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  clip-path:inset(50%)}
+.skip-link:focus {
+  position:fixed;
+  z-index:50;
+  background:white;
+  padding:10px}
+.button {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  min-height:47px;
+  padding:10px 24px;
+  background:linear-gradient(110deg,#004292,#003176);
+  border:1px solid #073c99;
+  border-radius:5px;
+  color:white;
+  font-weight:bold;
+  text-decoration:none;
+  font-size:15px}
+.button:hover {
+  filter:brightness(1.12)}
+.outline {
+  background:#fff;
+  color:var(--ink);
+  border:1px solid #174ab5}
+.header {
+  background:#fff;
+  position:relative;
+  z-index:10}
+.header-inner {
+  height:104px;
+  padding:14px 30px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between}
+.brand {
+  display:block;
+  width:178px;
+  height:59px;
+  overflow:hidden;
+  flex-shrink:0}
+.brand span {
+  display:block;
+  width:100%;
+  height:100%;
+  background:url('assets/references/desktop.png') -94px -5px / 1150px auto no-repeat}
+.menu-toggle {
+  width:43px;
+  height:44px;
+  border:0;
+  background:none;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:5px;
+  color:var(--ink)}
+.menu-toggle span {
+  width:25px;
+  height:2px;
+  background:currentColor}
+.header nav {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  right:0;
+  background:#fff;
+  border-bottom:1px solid var(--line);
+  padding:16px 28px;
+  box-shadow:0 8px 10px #00377d15}
+.header nav.open {
+  display:flex;
+  flex-direction:column;
+  gap:18px}
+.header nav a {
+  text-decoration:none}
+.header nav a[aria-current] {
+  text-decoration:underline;
+  text-underline-offset:8px}
+.hero-stage {
+  background:linear-gradient(105deg,#fff,#f3faff 65%,#fff)}
+.hero-copy {
+  padding:27px 32px 17px}
+.eyebrow {
+  text-transform:uppercase;
+  font-weight:bold;
+  letter-spacing:.95px;
+  font-size:10px;
+  line-height:1.5;
+  margin-bottom:12px}
+.hero-copy h1 {
+  font-size:62px;
+  line-height:1.03;
+  white-space:nowrap;
+  color:#05377e}
+.hero-copy h1 sup {
+  font:700 17px Arial;
+  vertical-align:top;
+  position:relative;
+  top:8px}
+.tagline {
+  font:bold 23px/1.16 Georgia,serif;
+  letter-spacing:-.75px;
+  white-space:nowrap;
+  margin-bottom:13px}
+.hero-description {
+  font-size:17px;
+  line-height:1.4;
+  color:#06398a}
+.hero-actions {
+  display:flex;
+  gap:10px;
+  margin-top:12px}
+.hero-actions .button:first-child {
+  flex:1.15}
+.hero-actions .button:last-child {
+  flex:1}
+.mobile-product {
+  width:100%;
+  height:auto}
+.trust-band {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  padding:25px 15px 32px;
+  background:#fff;
+  gap:8px}
+.trust-band>div {
+  text-align:center;
+  font-size:12px;
+  line-height:1.15}
+.icon {
+  width:48px;
+  height:48px;
+  display:block;
+  flex-shrink:0}
+.trust-band .icon {
+  margin:0 auto 6px}
+.panel {
+  padding:25px 27px}
+.panel>p {
+  color:var(--muted);
+  font-size:15px;
+  line-height:1.4}
+.results {
+  background:linear-gradient(115deg,#edf5fc,#f5faff);
+  border-radius:8px}
+.results-art {
+  margin-top:14px;
+  overflow:hidden;
+  border-radius:10px}
+.results-art img {
+  width:100%;
+  margin-top:-3px;
+  margin-bottom:-15px}
+.placeholder-note {
+  font-size:10px!important;
+  line-height:1.4!important;
+  margin-top:8px;
+  color:var(--muted)}
+.process {
+  padding-top:24px;
+  padding-bottom:20px}
+.steps {
+  display:grid;
+  gap:38px;
+  margin-top:20px}
+.steps article {
+  display:flex;
+  align-items:flex-start;
+  gap:16px;
+  position:relative}
+.step-number {
+  width:31px;
+  height:31px;
+  border-radius:100%;
+  background:linear-gradient(120deg,#0053a2,#002775);
+  color:white;
+  display:grid;
+  place-items:center;
+  font-size:20px;
+  flex-shrink:0}
+.steps article:not(:last-child):after {
+  content:'';
+  position:absolute;
+  left:15px;
+  top:36px;
+  height:72px;
+  border-left:1px dashed #b3d2ef}
+.steps .icon {
+  margin-top:2px}
+.steps h3 {
+  font:bold 20px/1.2 Georgia,serif;
+  margin-bottom:4px}
+.steps p {
+  font-size:14px;
+  line-height:1.35;
+  color:var(--muted)}
+.ingredients {
+  padding:24px 22px}
+.ingredients h2 {
+  font-size:24px}
+.desktop-title {
+  display:none}
+.ingredient-cards {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:7px 10px}
+.ingredient-card {
+  border:1px solid var(--line);
+  border-radius:8px;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  background:#fff}
+.ingredient-body {
+  padding:8px;
+  display:flex;
+  flex-direction:column;
+  gap:5px;
+  flex:1}
+.ingredient-name {
+  font-size:13px;
+  font-weight:bold;
+  line-height:1.2}
+.ingredient-body h3 {
+  font-size:12px;
+  line-height:1.2;
+  letter-spacing:-.2px}
+.ingredient-body p {
+  font-size:11px;
+  line-height:1.25;
+  color:#303a4b}
+.ingredient-body a {
+  font-size:12px;
+  font-weight:bold;
+  text-decoration:none;
+  margin-top:auto;
+  padding-top:3px}
+.ingredient-order {
+  display:flex;
+  margin:12px 4px 0}
+.benefits {
+  background:linear-gradient(110deg,white,#f5faff)}
+.benefit-list {
+  display:grid;
+  gap:32px;
+  margin-top:23px}
+.benefit-list article {
+  display:flex;
+  align-items:center;
+  gap:18px}
+.benefit-list h3 {
+  font-size:13px;
+  margin-bottom:5px}
+.benefit-list p {
+  font-size:12px;
+  color:var(--muted);
+  line-height:1.4}
+.everyone h2 {
+  font-size:25px}
+.patient-reference {
+  position:relative;
+  height:195px;
+  border-radius:20px;
+  overflow:hidden;
+  background:url('assets/references/mobile.png') -538px -922px / 1084px auto no-repeat;
+  margin-top:18px;
+  display:flex;
+  align-items:flex-end;
+  gap:8px;
+  padding-bottom:3px}
+.patient-reference span {
+  flex:1;
+  text-align:center;
+  font-size:10px;
+  font-weight:bold;
+  background:#f8fbff;
+  border-radius:18px;
+  padding:8px 3px}
+.testimonial {
+  margin:8px 0;
+  border-radius:7px;
+  text-align:center;
+  background:radial-gradient(ellipse at 50% 90%,#03477d,#002856);
+  color:#fff;
+  padding:24px 22px}
+.testimonial h2 {
+  font-size:25px}
+.testimonial p {
+  color:white;
+  font-size:14px;
+  line-height:1.5}
+.stars {
+  color:#ffc329;
+  font-size:28px;
+  letter-spacing:1px;
+  margin:6px 0}
+.testimonial-credit {
+  margin-top:12px}
+.testimonial .placeholder-note {
+  opacity:.8}
+.dots {
+  font-size:10px;
+  letter-spacing:4px;
+  margin-top:15px;
+  color:#a9c8e6}
+.science h2 {
+  font-size:26px}
+.science-tiles {
+  display:flex;
+  gap:8px;
+  margin:18px -8px 14px}
+.science>.button {
+  display:flex;
+  margin:0 25px;
+  font-size:13px;
+  padding:8px}
+.next-step {
+  text-align:center;
+  background:linear-gradient(#05101f99,#000b),url('assets/approved-before-after-reference.png') center/cover;
+  color:#fff;
+  border-radius:6px;
+  padding:35px 20px}
+.next-step h2 {
+  font-size:25px;
+  letter-spacing:-.8px}
+.next-step p {
+  color:#fff;
+  font-size:14px}
+.light {
+  background:white;
+  color:var(--ink);
+  border-color:#cbd5e1;
+  min-width:180px;
+  margin-top:20px}
+.faq {
+  padding:30px 15px}
+.faq h2 {
+  text-align:center;
+  font-size:23px;
+  margin-bottom:16px}
+.faq details {
+  border:1px solid var(--line);
+  border-radius:7px;
+  margin:5px 0}
+.faq summary {
+  list-style:none;
+  cursor:pointer;
+  padding:15px 13px;
+  font-size:13px;
+  display:flex;
+  justify-content:space-between;
+  gap:10px}
+.faq summary::-webkit-details-marker {
+  display:none}
+.faq summary:after {
+  content:'+';
+  font-size:22px;
+  line-height:18px}
+.faq details[open] summary:after {
+  content:'−'}
+.faq details p {
+  padding:0 14px 15px;
+  color:var(--muted);
+  font-size:13px}
+footer {
+  text-align:center;
+  background:radial-gradient(ellipse at center,#034776,#00264f);
+  color:white;
+  border-radius:5px;
+  padding:30px 20px 25px}
+.footer-brand {
+  margin:0 auto 24px;
+  width:170px;
+  height:66px}
+.footer-brand span {
+  background-image:url('assets/references/mobile.png');
+  background-size:1020px auto;
+  background-position:-550px -2390px}
+footer nav {
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  font-size:12px}
+footer nav a {
+  text-decoration:none}
+footer nav a:hover {
+  text-decoration:underline}
+.footer-note {
+  font-size:10px;
+  opacity:.8;
+  margin:22px 0 15px}
+footer small {
+  font-size:11px}
+
+@media(min-width:600px) and (max-width:899px) {
+  .hero-copy {
+  padding-inline:10%;
+  max-width:640px}
+.hero-copy h1 {
+  font-size:80px}
+.hero-stage {
+  max-width:650px;
+  margin:auto}
+.homepage-grid {
+  max-width:650px;
+  margin:auto}
+.mobile-product {
+  max-height:700px;
+  object-fit:cover;
+  object-position:top}
+.patient-reference {
+  width:336px;
+  margin-inline:auto}
+.header-inner {
+  max-width:700px;
+  margin:auto}
+}
+
+@media(min-width:900px) {
+  body {
+  background:#edf5fa;
+  padding:6px 15px 0}
+.header {
+  border-radius:5px 5px 0 0}
+.header-inner {
+  height:65px;
+  padding:0 7.2%;
+  gap:40px}
+.brand {
+  width:225px;
+  height:63px}
+.brand span {
+  background-size:1450px auto;
+  background-position:-119px -5px}
+.menu-toggle {
+  display:none}
+.header nav,.header nav.open {
+  display:flex;
+  position:static;
+  flex-direction:row;
+  align-items:center;
+  padding:0;
+  border:0;
+  box-shadow:none;
+  gap:55px;
+  flex:1;
+  justify-content:flex-end;
+  font-size:14px}
+.nav-order {
+  margin-left:auto;
+  min-width:220px;
+  min-height:42px}
+.hero-stage {
+  height:444px;
+  background:url('assets/references/desktop.png') center -70px / 100% auto no-repeat;
+  position:relative}
+.hero-copy {
+  padding:47px 0 0 7.2%;
+  width:46%;
+  height:359px;
+  background:linear-gradient(90deg,#f4fbfff5 75%,#f4fbff00)}
+.eyebrow {
+  font-size:13px;
+  letter-spacing:1.1px;
+  margin-bottom:7px}
+.hero-copy h1 {
+  font-size:88px;
+  line-height:1.05}
+.hero-copy h1 sup {
+  font-size:20px;
+  top:7px}
+.tagline {
+  font-size:32px;
+  margin-bottom:10px;
+  letter-spacing:-1.2px}
+.hero-description {
+  max-width:440px;
+  font-size:18px;
+  line-height:1.4}
+.hero-actions {
+  margin-top:14px;
+  max-width:357px;
+  gap:14px}
+.hero-actions .button {
+  min-height:48px;
+  font-size:17px}
+.mobile-product {
+  display:none}
+.trust-band {
+  background:#fffffff5;
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:64%;
+  padding:19px 3% 19px 6%;
+  height:85px;
+  gap:14px}
+.trust-band>div {
+  display:flex;
+  text-align:left;
+  align-items:center;
+  gap:12px;
+  font-size:13px;
+  border-right:1px solid #cfdeed;
+  padding-right:10px}
+.trust-band>div:last-child {
+  border:0}
+.trust-band .icon {
+  width:44px;
+  height:44px;
+  margin:0}
+.homepage-grid {
+  display:grid;
+  grid-template-columns:37.5% 30% 32.5%;
+  background:#fff;
+  border-radius:5px}
+.panel {
+  padding:16px 32px}
+.panel h2 {
+  font-size:30px}
+.results {
+  grid-column:1;
+  grid-row:1;
+  padding:20px 35px}
+.results>p {
+  font-size:17px}
+.results-art {
+  margin-top:13px}
+.results-art img {
+  margin-top:-3px;
+  margin-bottom:-20px}
+.results .placeholder-note {
+  font-size:9px!important}
+.ingredients {
+  grid-column:2/4;
+  grid-row:1;
+  padding:12px 30px 16px}
+.mobile-title {
+  display:none}
+.desktop-title {
+  display:block}
+.ingredients h2 {
+  margin-bottom:3px;
+  font-size:30px}
+.ingredient-intro {
+  font-size:16px!important;
+  line-height:1.2!important;
+  margin-bottom:10px}
+.ingredient-cards {
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:13px}
+.ingredient-card {
+  border-radius:5px}
+.ingredient-body {
+  padding:10px 13px;
+  gap:6px}
+.ingredient-name {
+  font-size:15px}
+.ingredient-body h3 {
+  font-size:12px}
+.ingredient-body p {
+  font-size:12px;
+  line-height:1.25}
+.ingredient-body a {
+  font-size:13px;
+  padding-top:5px}
+.ingredient-order {
+  display:none}
+.process {
+  grid-column:1/3;
+  grid-row:2;
+  padding:15px 35px}
+.steps {
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+  margin-top:15px}
+.steps article {
+  gap:12px}
+.steps .icon {
+  width:42px;
+  height:42px}
+.step-number {
+  width:34px;
+  height:34px}
+.steps h3 {
+  font-size:18px}
+.steps p {
+  font-size:13px}
+.steps article:not(:last-child):after {
+  left:auto;
+  right:-13px;
+  top:13px;
+  height:65px;
+  border-left:1px solid #d5e4f3}
+.next-step {
+  grid-column:3;
+  grid-row:2;
+  padding:15px 25px}
+.next-step h2 {
+  font-size:24px}
+.next-step p {
+  font-size:14px}
+.next-step .button {
+  margin-top:12px;
+  min-height:37px}
+.benefits {
+  grid-column:1;
+  grid-row:3;
+  padding:35px}
+.benefits h2 {
+  font-size:28px}
+.benefit-list {
+  gap:25px}
+.everyone {
+  grid-column:2;
+  grid-row:3;
+  padding:35px 24px}
+.everyone h2 {
+  font-size:28px}
+.patient-reference {
+  height:195px;
+  width:100%;
+  max-width:336px;
+  background-position:-538px -922px}
+.science {
+  grid-column:3;
+  grid-row:3;
+  padding:35px 24px}
+.science .button {
+  margin-inline:0}
+.testimonial {
+  grid-column:1;
+  grid-row:4;
+  margin:0;
+  padding:30px}
+.faq {
+  grid-column:2/4;
+  grid-row:4;
+  padding:30px}
+.faq h2 {
+  text-align:left}
+footer {
+  padding:30px}
+.footer-brand {
+  width:170px;
+  height:66px}
+.footer-brand span {
+  background-size:1020px auto;
+  background-position:-550px -2390px}
+}
+
+@media(prefers-reduced-motion:reduce) {
+  html {
+  scroll-behavior:auto}
+}
+
+/* Reference comparison refinements: use only pixels from the supplied approved artwork. */
+.card-art {
+  height:45px;
+  background-image:url('assets/references/desktop.png');
+  background-repeat:no-repeat;
+  background-size:1260px auto;
+  background-position:-500px -530px}
+
+.ingredient-card:nth-child(2) .card-art {
+  background-position:-680px -530px}
+.ingredient-card:nth-child(3) .card-art {
+  background-image:url('assets/references/mobile.png');
+  background-size:860px auto;
+  background-position:-48px -1960px}
+.ingredient-card:nth-child(4) .card-art {
+  background-position:-1046px -530px}
+
+.results-art {
+  aspect-ratio:1.85;
+  position:relative}
+.results-art img {
+  position:absolute;
+  top:-11%;
+  margin:0;
+  width:100%;
+  height:auto}
+.footer-brand span {
+  background-position:-550px -2342px}
+
+.next-step {
+  background-image:linear-gradient(#031127b3,#000c),url('assets/approved-before-after-reference.png');
+  background-size:cover,220% auto;
+  background-position:center,54% 38%}
+
+@media(min-width:900px) {
+  .hero-copy {
+  background:#f1f9ff}
+.trust-band {
+  background:#fff}
+.results-art {
+  aspect-ratio:2.45}
+.results-art img {
+  top:-21%;
+  height:140%;
+  object-fit:fill}
+.card-art {
+  height:74px;
+  background-size:1536px auto;
+  background-position:-610px -646px}
+.ingredient-card:nth-child(2) .card-art {
+  background-position:-830px -646px}
+.ingredient-card:nth-child(3) .card-art {
+  background-image:url('assets/references/desktop.png');
+  background-size:1536px auto;
+  background-position:-1052px -646px}
+.ingredient-card:nth-child(4) .card-art {
+  background-position:-1275px -646px}
+.header nav {
+  justify-content:center}
+.header nav .nav-order {
+  margin-left:120px}
+.footer-brand span {
+  background-position:-550px -2342px}
+}
+
+.terms-toggle {
+  border:0;
+  background:none;
+  color:inherit;
+  font:inherit;
+  padding:0;
+  cursor:pointer}
+.terms-toggle:hover {
+  text-decoration:underline}
+#terms-note {
+  max-width:360px;
+  border:1px solid #dce8f4;
+  border-radius:8px;
+  padding:25px;
+  color:var(--ink);
+  font-size:15px}
+#terms-note p {
+  margin:15px 0}
+#terms-note::backdrop {
+  background:#001b4566}
+#terms-note button {
+  min-height:44px;
+  padding:8px 20px;
+  color:var(--ink)}
+
+.footer-brand {
+  width:190px}
+
+.ingredient-card:nth-child(4) .card-art {
+  background-image:url('assets/references/desktop.png');
+  background-size:1260px auto;
+  background-position:-1046px -530px}
+
+@media(max-width:359px) {
+  .hero-copy {
+  padding-inline:23px}
+.hero-copy h1 {
+  font-size:53px}
+.tagline {
+  font-size:19px}
+.hero-actions .button {
+  padding-inline:12px}
+.panel {
+  padding-inline:20px}
+.ingredients h2 {
+  font-size:21px}
+.trust-band {
+  padding-inline:8px}
+.trust-band>div {
+  font-size:10px}
+}
+
+@media(min-width:900px) {
+  .hero-copy {
+  width:43%;
+  padding-top:45px}
+.ingredient-card:nth-child(4) .card-art {
+  background-size:1536px auto;
+  background-position:-1275px -646px}
+}
+
+@media(min-width:900px) and (max-width:1199px) {
+  .header-inner {
+  padding-inline:4%;
+  gap:20px}
+.header nav {
+  gap:22px}
+.header nav .nav-order {
+  margin-left:15px;
+  min-width:150px}
+.hero-copy {
+  width:47%;
+  padding-left:4%;
+  padding-top:32px}
+.hero-copy h1 {
+  font-size:68px}
+.tagline {
+  font-size:25px}
+.hero-description {
+  font-size:16px}
+.eyebrow {
+  font-size:10px}
+.trust-band {
+  width:70%;
+  padding-left:4%;
+  gap:7px}
+.trust-band>div {
+  font-size:10px;
+  gap:5px}
+.trust-band .icon {
+  width:34px}
+.panel {
+  padding-inline:18px}
+.ingredient-cards {
+  gap:7px}
+.ingredient-body {
+  padding:8px}
+.ingredient-name {
+  font-size:12px}
+.ingredients h2 {
+  font-size:25px}
+.steps {
+  gap:14px}
+.steps article {
+  gap:6px;
+  flex-wrap:wrap}
+.steps article>div {
+  width:100%}
+.steps h3 {
+  font-size:17px}
+.next-step h2 {
+  font-size:23px}
+}
+
+@media(max-width:899px) {
+  .ingredient-card:nth-child(4) .card-art {
+  background-image:url('assets/references/mobile.png');
+  background-size:860px auto;
+  background-position:-218px -1960px}
+}
+
+
+/* Homepage refinement pass 2: preserve the approved composition and copy. */
+.science-tiles  {
+   display:grid;
+   grid-template-columns:repeat(3,minmax(0,1fr));
+   gap:8px;
+   margin:18px 0 16px;
+   align-items:start;
+   }
+
+.science-tiles .science-art  {
+   display:block;
+   width:100%;
+   height:auto;
+   aspect-ratio:73 / 117;
+   object-fit:contain;
+   border-radius:8px;
+   background:none;
+   }
+
+.ingredient-body  {
+   padding:10px;
+   gap:6px;
+   }
+
+.ingredient-body h3  {
+   line-height:1.3;
+   }
+
+.ingredient-body p  {
+   font-size:12px;
+   line-height:1.4;
+   }
+
+.ingredient-body a  {
+   min-height:30px;
+   display:flex;
+   align-items:center;
+   }
+
+.steps p  {
+   font-size:14px;
+   line-height:1.5;
+   }
+
+.benefit-list p  {
+   font-size:13px;
+   line-height:1.5;
+   }
+
+.hero-actions > .button  {
+   min-width:0;
+   }
+
+@media (min-width:900px)  {
+  
+  .homepage-grid  {
+   row-gap:0;
+   }
+
+  .results  {
+   padding-top:24px;
+   padding-bottom:24px;
+   }
+
+  .ingredients  {
+   padding-top:24px;
+   padding-bottom:24px;
+   }
+
+  .ingredients h2  {
+   margin-bottom:6px;
+   }
+
+  .ingredient-intro  {
+   margin-bottom:14px;
+   line-height:1.4!important;
+   }
+
+  .ingredient-body  {
+   padding:11px;
+   gap:7px;
+   }
+
+  .ingredient-body h3  {
+   font-size:13px;
+   }
+
+  .ingredient-body p  {
+   font-size:13px;
+   line-height:1.4;
+   }
+
+  .process  {
+   padding-top:24px;
+   padding-bottom:24px;
+   border-top:1px solid var(--line);
+   }
+
+  .steps  {
+   gap:24px;
+   margin-top:18px;
+   }
+
+  .steps article  {
+   display:grid;
+   grid-template-columns:32px minmax(0,1fr);
+   gap:8px 12px;
+   align-content:start;
+   }
+
+  .steps .step-number  {
+   grid-row:1;
+   grid-column:1;
+   width:32px;
+   height:32px;
+   }
+
+  .steps .icon  {
+   grid-row:1;
+   grid-column:2;
+   width:42px;
+   height:42px;
+   margin:0;
+   }
+
+  .steps article > div  {
+   grid-column:1 / -1;
+   min-width:0;
+   }
+
+  .steps article:not(:last-child):after  {
+   top:8px;
+   height:calc(100% - 8px);
+   right:-12px;
+   }
+
+  .steps h3  {
+   margin-bottom:6px;
+   }
+
+  .steps p  {
+   font-size:14px;
+   }
+
+  .next-step  {
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:center;
+   padding:24px;
+   }
+
+  .benefits,.everyone,.science  {
+   padding-top:30px;
+   padding-bottom:30px;
+   border-top:1px solid var(--line);
+   }
+
+  .benefit-list  {
+   gap:22px;
+   }
+
+  .everyone,.science  {
+   border-left:1px solid var(--line);
+   }
+
+  .everyone .patient-reference  {
+   margin-top:20px;
+   }
+
+  .science-tiles  {
+   gap:10px;
+   }
+
+  .science-tiles .science-art  {
+   max-height:190px;
+   }
+
+  .testimonial,.faq  {
+   padding:30px;
+   border-top:1px solid var(--line);
+   }
+
+  .testimonial  {
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   }
+
+  .faq h2  {
+   margin-bottom:16px;
+   }
+
+  .faq summary  {
+   min-height:48px;
+   font-size:14px;
+   }
+
+}
+
+@media (min-width:900px) and (max-width:1199px)  {
+  
+  .results,.ingredients,.process  {
+   padding-inline:20px;
+   }
+
+  .ingredient-cards  {
+   grid-template-columns:repeat(2,minmax(0,1fr));
+   gap:12px;
+   }
+
+  .ingredient-name  {
+   font-size:14px;
+   }
+
+  .ingredient-body  {
+   padding:10px;
+   }
+
+  .benefits,.everyone,.science  {
+   padding-inline:18px;
+   }
+
+  .benefit-list article  {
+   gap:10px;
+   }
+
+  .benefit-list .icon  {
+   width:38px;
+   height:38px;
+   }
+
+  .everyone h2,.science h2,.benefits h2  {
+   font-size:25px;
+   }
+
+  .science > .button  {
+   padding-inline:8px;
+   }
+
+}
+
+@media (min-width:360px) and (max-width:389px) {
+  .tagline { font-size:22px; }
+}
+/* Isolated approved artwork prevents adjacent screenshot content at tablet widths. */
+@media (min-width:900px) {
+  .ingredient-card:nth-child(1) .card-art { background:url('assets/approved-extracts/ingredient-bimatoprost.png') center / cover no-repeat; }
+  .ingredient-card:nth-child(2) .card-art { background:url('assets/approved-extracts/ingredient-tofacitinib.png') center / cover no-repeat; }
+  .ingredient-card:nth-child(3) .card-art { background:url('assets/approved-extracts/ingredient-finasteride.png') center / cover no-repeat; }
+  .ingredient-card:nth-child(4) .card-art { background:url('assets/approved-extracts/ingredient-melatonin.png') center / cover no-repeat; }
+}
+@media (min-width:900px) and (max-width:1199px) {
+  .hero-stage { background-image:none; background-color:#fff; }
+  .hero-stage::before { content:''; position:absolute; top:0; left:0; right:0; height:calc((100vw - 30px) * .3073); background:url('assets/references/desktop.png') center calc((100vw - 30px) * -.0488) / 100% auto no-repeat; }
+  .hero-copy { position:relative; }
+}
+@media (min-width:900px) and (max-width:1199px) {
+  .hero-stage::after { content:''; position:absolute; left:47%; width:17%; top:calc((100vw - 30px) * .2493); height:calc((100vw - 30px) * .058); background:#fff; }
+}

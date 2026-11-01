@@ -1,0 +1,16 @@
+test_adapters_use_distinct_destinations_and_single_use_token (__main__.FormTests.test_adapters_use_distinct_destinations_and_single_use_token) ... ok
+test_delivery_failure_never_reports_success (__main__.FormTests.test_delivery_failure_never_reports_success) ... ok
+test_indexing_disabled_and_security_headers (__main__.FormTests.test_indexing_disabled_and_security_headers) ... ok
+test_origin_and_csrf_rejected (__main__.FormTests.test_origin_and_csrf_rejected) ... ok
+test_oversize_rejected (__main__.FormTests.test_oversize_rejected) ... ok
+test_physician_exact_four_fields (__main__.FormTests.test_physician_exact_four_fields) ... ok
+test_rate_limit (__main__.FormTests.test_rate_limit) ... ok
+test_same_destination_and_unapproved_privacy_block (__main__.FormTests.test_same_destination_and_unapproved_privacy_block) ... ok
+test_secure_destination_and_calendar_validation (__main__.FormTests.test_secure_destination_and_calendar_validation) ... ok
+test_unconfigured_fails_closed (__main__.FormTests.test_unconfigured_fails_closed) ... ok
+test_validation_rejects_bad_and_extra_fields (__main__.FormTests.test_validation_rejects_bad_and_extra_fields) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.546s
+
+OK

@@ -1,0 +1,95 @@
+:root{--navy:#092e50;--blue:#14527d;--muted:#536577;--line:#dbe5ec;--pale:#f3f7fa}*{box-sizing:border-box}body{margin:0;font:16px/1.7 Arial,Helvetica,sans-serif;color:#243649;background:#fff}h1,h2,h3{font-family:Georgia,serif;color:var(--navy);line-height:1.2}h1{font-size:49px}h2{font-size:36px;margin:9px 0 20px}h3{font-size:25px;margin:8px 0 15px}p{margin:0 0 17px}.wrap{max-width:1240px;margin:auto;padding:0 42px}.eyebrow{font-size:12px;letter-spacing:.2em;color:var(--blue);font-weight:700;text-transform:uppercase}.nav{border-bottom:1px solid var(--line);padding:18px 0}.nav .wrap{display:flex;justify-content:space-between;align-items:center}.brand{font:700 29px Georgia;color:var(--navy)}.navlinks{display:flex;gap:25px;font-size:13px}.button{display:inline-block;background:var(--navy);color:#fff;padding:12px 22px;border-radius:40px;text-decoration:none;font-size:14px;font-weight:700}.hero{background:linear-gradient(110deg,#fff 45%,#e8f2f7);padding:78px 0}.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:50px;align-items:center}.product{border:2px dashed #abc1d0;border-radius:20px;min-height:310px;display:grid;place-items:center;text-align:center;padding:30px;color:var(--muted);background:#fff}.section{padding:70px 0;border-bottom:1px solid var(--line)}.section.alt{background:var(--pale)}.two{display:grid;grid-template-columns:minmax(0,3.2fr) minmax(260px,1fr);gap:42px}.ingredient{padding:32px 0;border-bottom:1px solid var(--line)}.ingredient:last-child{border:0}.tag{font-size:13px;color:var(--blue);font-weight:700}.source{padding:12px 15px;border-left:3px solid #397fa6;background:#f2f7fb;font-size:14px;margin-top:15px}.source a,a{color:#0b588c}.sidebar{align-self:start;position:sticky;top:20px;background:#f2f7fa;padding:25px;border:1px solid var(--line);border-radius:12px}.sidebar article{border-bottom:1px solid var(--line);padding:14px 0}.sidebar article:last-child{border:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{border:1px solid var(--line);background:white;padding:26px;border-radius:12px}.card p{font-size:15px}.feature{padding:22px 0;border-bottom:1px solid var(--line)}.feature:last-child{border:0}.doctors{display:grid;grid-template-columns:1fr 1fr;gap:25px}.doctor{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:white}.doctor img{width:100%;height:340px;object-fit:cover;object-position:center 25%;display:block}.doctor .content{padding:25px}.doctor .content p{font-size:15px}.faq details{border-bottom:1px solid var(--line);padding:15px 0}.faq summary{cursor:pointer;font-weight:bold;color:var(--navy)}.form{display:grid;grid-template-columns:1fr 1fr;gap:16px}.form input,.form select,.form textarea{width:100%;padding:14px;border:1px solid #bdcbd6;border-radius:7px;font:inherit}.form textarea{grid-column:span 2}.note{font-size:13px;color:var(--muted)}footer{background:var(--navy);color:white;padding:35px 0}@media(max-width:850px){.wrap{padding:0 22px}.hero-grid,.two,.cards,.doctors,.form{grid-template-columns:1fr}.navlinks{display:none}.sidebar{position:static}.form textarea{grid-column:span 1}h1{font-size:38px}h2{font-size:30px}}
+.source{background:transparent;border-left:0;border-top:1px solid var(--line);padding:9px 0;margin-top:10px;font-size:12px;color:var(--muted)}.source a{font-weight:700;text-decoration:none}.cards .card:nth-child(2){border:2px solid #14527d;box-shadow:0 6px 20px rgba(9,46,80,.07)}
+
+
+/* Approved option C: editorial benefits and white clinical literature, navy scientific section */
+:root{--navy:#0b3157;--blue:#19588b;--line:#d7e3ed;--pale:#f5f8fb}
+body{background:#fff;color:#2c4054;font-size:15px;line-height:1.64}
+.wrap{max-width:1440px;padding:0 48px}
+.nav{padding:13px 0;background:#fff;position:relative;z-index:2}
+.navlinks{gap:30px}
+.hero{background:linear-gradient(112deg,#fff 8%,#f6f9fc 52%,#dcebf5 100%);padding:65px 0 70px}
+.hero-grid{grid-template-columns:1.15fr .85fr;gap:45px}
+.hero h1{font-size:55px;max-width:720px;margin:10px 0 17px}
+.hero h3{font:400 22px Arial,sans-serif;color:#3e5368;margin:0 0 20px}
+.hero p{max-width:690px}
+.product{border:1px solid #cbdde9;background:radial-gradient(ellipse at 75% 40%,#d5e8f4,#edf5fa 70%);min-height:330px;box-shadow:0 12px 38px #0c3a6020}
+.section{padding:58px 0}
+.section.alt{background:#f8fbfd}
+.clinical-layout{display:grid;grid-template-columns:minmax(0,1.48fr) minmax(360px,1fr);gap:34px;align-items:start}
+.clinical-copy>h2{font-size:35px;margin:8px 0 14px}
+.clinical-copy>.cards{grid-template-columns:1fr;gap:12px;margin-top:24px}
+.clinical-copy .card{padding:18px 24px;border:1px solid #e1eaf1;border-radius:9px;background:#fff}
+.clinical-copy .card:nth-child(2){background:#e8f2fa;border-color:#cbddeb}
+.clinical-copy .card h3{font-size:23px;margin:4px 0 7px}
+.clinical-copy .card p{margin:0;font-size:15px}
+.clinical-copy .card .eyebrow{font-size:10px}
+.sidebar{position:static;top:auto;background:#fff;border:1px solid #cfdeeb;border-top:5px solid #123e68;padding:25px 27px;border-radius:10px;box-shadow:0 12px 30px #123c5b0c}
+.sidebar .eyebrow{font-size:11px}
+.sidebar h3{font-size:29px;margin:3px 0 14px}
+.sidebar article{padding:17px 0}
+.sidebar article strong{color:#0b3157;font:700 18px/1.3 Georgia,serif}
+.sidebar article small{color:#637589}
+.sidebar article p{margin:4px 0 0}
+.sidebar .note{margin-top:18px}
+#science{background:#f5f9fc;padding-top:0}
+#science>.wrap{padding-top:55px}
+#science .eyebrow{color:#2b6899}
+#science h2{font-size:39px}
+#science>.wrap>p{max-width:1120px}
+#science main{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:30px}
+#science .ingredient{background:#fff;border:1px solid #d8e5ee;border-radius:12px;padding:26px 28px;box-shadow:0 7px 24px #0c3a6010}
+#science .ingredient h3{font-size:26px;margin:6px 0 10px}
+#science .ingredient p{font-size:15px}
+#science .ingredient .tag{font-size:12px;margin-bottom:16px}
+#science .source{background:#f3f7fb;border-left:2px solid #225d8c;padding:8px 12px;font-size:12px}
+#science:before{content:'';display:block;height:115px;background:radial-gradient(circle at 20% 65%,#2e87bd 0,transparent 22%),radial-gradient(circle at 75% 40%,#316cbb 0,transparent 23%),linear-gradient(105deg,#061b34,#0d3d70 55%,#092341);}
+#science>.wrap>.eyebrow{margin-top:0}
+.doctor img{height:315px}
+@media(max-width:950px){.clinical-layout{grid-template-columns:1fr}.clinical-copy>.cards{grid-template-columns:1fr}.wrap{padding:0 24px}#science main{grid-template-columns:1fr}}
+
+
+/* Ingredient section revision only — rest of page remains unchanged */
+#science{background:#f0f5f9;padding-top:0}
+#science:before{content:"";display:block;height:116px;background:radial-gradient(circle at 21% 45%,#2b79aa 0%,transparent 23%),radial-gradient(circle at 80% 55%,#395ec0 0%,transparent 26%),linear-gradient(100deg,#092642,#123e68 55%,#0a2e53);border-bottom:5px solid #fff}
+#science .wrap{padding-top:30px}
+#science h2{margin-bottom:12px}
+#science .ingredient-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:28px;align-items:stretch}
+#science .ingredient-card{padding:0 0 24px;border:1px solid #d8e5ee;border-radius:13px;background:#fff;box-shadow:0 7px 24px #0c3a6010;overflow:hidden;display:flex;flex-direction:column;margin:0}
+#science .ingredient-visual{height:130px;margin:0 0 22px;background-position:center;background-size:cover}
+#science .visual-1{background:radial-gradient(ellipse at 28% 95%,#fca65b 0%,transparent 18%),repeating-linear-gradient(105deg,transparent 0 28px,#83badc44 30px 32px,transparent 35px 70px),linear-gradient(120deg,#061b38,#11507e 65%,#0a2e50)}
+#science .visual-2{background:radial-gradient(circle at 28% 52%,#6dd4ff 0%,#1163aa 15%,transparent 18%),radial-gradient(circle at 70% 38%,#5dc3fc 0%,#1957a0 17%,transparent 20%),linear-gradient(120deg,#092544,#1b5a8d)}
+#science .visual-3{background:radial-gradient(circle at 25% 35%,#7fd2f9 0%,#1b68a4 7%,transparent 9%),radial-gradient(circle at 55% 68%,#8ed3ff 0%,#2464a2 8%,transparent 10%),radial-gradient(circle at 75% 28%,#5dbbf5 0%,#17528c 8%,transparent 10%),linear-gradient(120deg,#0c2e52,#32638d)}
+#science .visual-4{background:radial-gradient(ellipse at 68% 90%,#f88ccc 0%,transparent 17%),repeating-linear-gradient(70deg,transparent 0 25px,#e68cd833 27px 29px,transparent 31px 65px),linear-gradient(120deg,#142b60,#743e90 70%,#183f80)}
+#science .ingredient-card>h3,#science .ingredient-card>.tag,#science .ingredient-card>p,#science .ingredient-card>.ingredient-more,#science .ingredient-card>.read-toggle{margin-left:25px;margin-right:25px}
+#science .ingredient-card h3{margin-top:0}
+#science .ingredient-card>.tag{margin-bottom:14px}
+#science .ingredient-card>p{font-size:15px;line-height:1.75}
+#science .ingredient-more{display:none;font-size:15px;line-height:1.75}
+#science .ingredient-card.is-expanded .ingredient-more{display:block}
+#science .source{background:transparent;border:0;border-top:1px solid #dce6ed;padding:10px 0;font-size:12px}
+#science .read-toggle{align-self:flex-start;margin-top:auto;background:#fff;color:#0b588c;border:1px solid #bdd2e4;border-radius:25px;padding:8px 16px;font-weight:700;cursor:pointer}
+#science .read-toggle:hover{background:#eef6fc}
+@media(max-width:760px){#science .ingredient-grid{grid-template-columns:1fr}#science:before{height:70px}}
+
+
+/* Approved clinical-practice redesign: three equal, airy columns; no editorial copy changes */
+.practice-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin:34px 0 24px;border-top:1px solid #d9e5ee;border-bottom:1px solid #d9e5ee}
+.practice-grid .feature{border:0;min-width:0;padding:28px 28px 26px 0;position:relative}
+.practice-grid .feature+.feature{border-left:1px solid #d9e5ee;padding-left:28px}
+.practice-grid .feature h3{font-size:22px;line-height:1.25;margin:10px 0 12px}
+.practice-grid .feature p{font-size:15px;line-height:1.7;margin:0}
+.practice-number{display:block;font:700 11px Arial,sans-serif;letter-spacing:.16em;color:#6b8195;margin-bottom:10px}
+.practice-icon{display:grid;place-items:center;width:39px;height:39px;border-radius:11px;background:#eaf3fb;color:#1c5d90;font:700 24px Arial,sans-serif}
+@media(max-width:800px){.practice-grid{grid-template-columns:1fr}.practice-grid .feature,.practice-grid .feature+.feature{border-left:0;border-bottom:1px solid #d9e5ee;padding:22px 0}.practice-grid .feature:last-child{border-bottom:0}}
+
+/* Approved physician page: responsive implementation and original supplied artwork. */
+html{scroll-behavior:smooth}img{max-width:100%}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #1765a0;outline-offset:4px}.button{color:#fff}.skip-link:not(:focus){position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.skip-link:focus{position:fixed;top:8px;left:8px;background:#fff;padding:12px;z-index:99}.nav .brand{color:var(--navy);text-decoration:none;white-space:nowrap}.navlinks a{color:var(--navy);text-decoration:none}.navlinks a[aria-current]{font-weight:700}.navlinks a:hover{text-decoration:underline}.nav-menu{display:none}.nav .wrap{gap:20px;min-height:44px}.hero{padding:0;background:linear-gradient(110deg,#f3f9fe,#d2e9f8)}.hero-grid{max-width:1440px;grid-template-columns:54% 46%;gap:0;align-items:stretch;padding-right:0}.hero-copy{padding:44px 20px 44px 0;align-self:center}.hero h1{font-size:clamp(38px,3.5vw,52px);margin:12px 0 16px}.hero h3{font-size:22px;margin-bottom:20px}.hero p{font-size:16px;line-height:1.65;max-width:650px}.hero-art{width:100%;height:100%;min-height:400px;object-fit:cover;object-position:center}.hero .button{margin-top:4px}#science .ingredient-grid{margin-top:28px}#science .ingredient-more[hidden]{display:none}#science .ingredient-more:not([hidden]){display:block}#science .read-toggle{min-height:44px;font-size:13px}.read-toggle:hover{background:#edf5fa}#science .ingredient-card{align-self:start}#science .ingredient-grid{align-items:start}#science .ingredient-visual{flex-shrink:0}.ingredient-research-link{display:block;margin:14px 25px 0;font-size:12px;color:#19588b}.sidebar article a{font-size:13px}.doctor img{object-fit:cover}.inquiry-form label{display:block;font-size:13px;font-weight:700}.inquiry-form input,.inquiry-form select{min-height:48px}.inquiry-form input:disabled,.inquiry-form select:disabled,.inquiry-form textarea:disabled{background:#f4f7fa;color:#536577;opacity:1}.inquiry-form .wide{grid-column:1 / -1}.inquiry-form textarea{display:block}.form label input,.form label select,.form label textarea{display:block;margin-top:6px}footer nav{display:flex;gap:22px;flex-wrap:wrap;margin-bottom:15px}footer nav a{color:#fff;font-size:13px}footer p{margin-bottom:8px}details summary{min-height:44px;display:flex;align-items:center;justify-content:space-between;gap:20px;list-style:none}details summary:after{content:'+';font:22px Arial}details[open] summary:after{content:'−'}summary::-webkit-details-marker{display:none}.faq details p{margin-top:12px}.section h2{overflow-wrap:break-word}
+@media(max-width:950px){.hero-grid{grid-template-columns:1fr;padding:0}.hero-copy{padding:32px 24px 24px}.hero h1{font-size:clamp(34px,7.5vw,48px);max-width:650px}.hero h3{font-size:20px}.hero-art{height:auto;min-height:0;max-height:450px;object-fit:contain;background:#e5f2fb}.clinical-layout{gap:30px}.nav .wrap{padding-inline:20px}.navlinks{gap:15px}.navlinks a{font-size:12px}.nav .brand{font-size:24px}.nav>.wrap>.button{font-size:12px;padding:10px 15px}.section{padding:42px 0}.clinical-copy>h2{font-size:30px}.wrap{padding-inline:24px}}
+@media(max-width:760px){.nav{padding:12px 0}.nav .wrap{flex-wrap:wrap;gap:12px}.nav .brand{margin-right:auto}.nav-menu{display:block;border:1px solid #c5d5e2;border-radius:6px;padding:8px;background:white;color:var(--navy);font-size:20px;min-width:44px;min-height:44px}.navlinks{display:none;order:4;width:100%;flex-direction:column;padding:12px 0}.navlinks.is-open{display:flex}.navlinks a{font-size:14px;padding:6px 0}.nav>.wrap>.button{font-size:11px;padding:10px 12px}.hero h1{font-size:36px}.hero p{font-size:15px}.hero h3{font-size:18px}.hero-art{width:100%;max-height:none;aspect-ratio:968 / 704;object-fit:contain}#science .ingredient-grid{grid-template-columns:1fr}#science h2{font-size:30px}#science .ingredient-card h3{font-size:25px}.practice-grid{grid-template-columns:1fr}.doctors{grid-template-columns:1fr}.doctor img{height:auto;aspect-ratio:1.35;object-position:center 25%}.clinical-copy .card{padding:18px}.sidebar{padding:22px}.form{grid-template-columns:1fr}.form textarea{grid-column:auto}h2{font-size:30px}h3{font-size:24px}.section{padding:36px 0}.hero-copy{padding-inline:22px}.wrap{padding-inline:22px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media(min-width:761px){.navlinks{display:flex}}
+/* Match the approved heading breaks and portrait-led specialist cards. */
+.hero h1 span{display:block}.doctor{display:grid;grid-template-columns:29% minmax(0,1fr);align-items:stretch}.doctor img{height:100%;min-height:250px;object-fit:cover;object-position:center}.doctor .content{padding:24px}.doctor .content h3{font-size:24px}.doctor .content p{font-size:14px;line-height:1.65;margin-top:8px}.doctor .content>strong{font-size:13px}.doctor .content a{font-size:13px}
+@media(max-width:950px){.hero .hero-grid{padding-inline:0}.hero h1 span{display:inline}}
+@media(max-width:760px){.doctor{grid-template-columns:30% minmax(0,1fr)}.doctor img{height:100%;aspect-ratio:auto;min-height:0}.doctor .content{padding:17px 14px}.doctor .content h3{font-size:20px;margin-top:0}.doctor .content p{font-size:13px;line-height:1.6}.doctor .content>strong{font-size:11px;display:block}.doctor .content a{font-size:12px}}

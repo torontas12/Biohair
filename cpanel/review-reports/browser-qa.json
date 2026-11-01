@@ -1,0 +1,287 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "BioHair X\u00ae \u2014 Advanced Hair Loss Prevention & Regrowth"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "index.html",
+      "viewport": 1440,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "A Pharmacological Approach to Hair Restoration"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "physicians.html",
+      "viewport": 1440,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "Science & Research"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "blog.html",
+      "viewport": 1440,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "Clinical Research Library"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "clinical-research.html",
+      "viewport": 1440,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "Find My Treatment"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "find-my-treatment/",
+      "viewport": 1440,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "Physician Inquiry"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "physician-inquiry/",
+      "viewport": 1440,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "BioHair X\u00ae \u2014 Advanced Hair Loss Prevention & Regrowth"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "index.html",
+      "viewport": 768,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "A Pharmacological Approach to Hair Restoration"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "physicians.html",
+      "viewport": 768,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "Science & Research"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "blog.html",
+      "viewport": 768,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "Clinical Research Library"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "clinical-research.html",
+      "viewport": 768,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "Find My Treatment"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "find-my-treatment/",
+      "viewport": 768,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "Physician Inquiry"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "physician-inquiry/",
+      "viewport": 768,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 375,
+      "scroll": 375,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "BioHair X\u00ae \u2014 Advanced Hair Loss Prevention & Regrowth"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "index.html",
+      "viewport": 375,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 375,
+      "scroll": 375,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "A Pharmacological Approach to Hair Restoration"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "physicians.html",
+      "viewport": 375,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 375,
+      "scroll": 375,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "Science & Research"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "blog.html",
+      "viewport": 375,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 375,
+      "scroll": 375,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "Clinical Research Library"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "clinical-research.html",
+      "viewport": 375,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 375,
+      "scroll": 375,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "Find My Treatment"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "find-my-treatment/",
+      "viewport": 375,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    },
+    {
+      "width": 375,
+      "scroll": 375,
+      "footer": "rgb(232, 243, 249)",
+      "broken": [],
+      "headings": [
+        "Physician Inquiry"
+      ],
+      "robots": "noindex,nofollow,noarchive",
+      "route": "physician-inquiry/",
+      "viewport": 375,
+      "status": 200,
+      "robots_header": "noindex, nofollow, noarchive"
+    }
+  ],
+  "checks": [
+    "All 180 candidate IDs reachable exactly once over 36 pages; five per page; all four category counts and page resets; verified-only and empty search pass.",
+    "Mobile: physician artwork/sidebar hidden; all three complete intro paragraphs visible; independent Read More/Read Less controls; patient CTA and keyboard menu pass.",
+    "Forms: patient has only 3 contact fields plus acknowledgment; physician has exactly 4 fields; native required/email checks; actual unconfigured submission returns 503 with no false success.",
+    "All 22 HTML routes return 200 with identical shared footer markup, dark readable footer text, light-blue background and noindex meta/HTTP headers."
+  ],
+  "errors": [],
+  "all_routes": [
+    "blog-finasteride.html",
+    "privacy.html",
+    "journal.html",
+    "melatonin-hair-growth.html",
+    "order.html",
+    "physicians.html",
+    "blog-multi-target.html",
+    "blog.html",
+    "index.html",
+    "blog-jak-inhibitors.html",
+    "tofacitinib-hair-loss.html",
+    "bimatoprost-hair-growth.html",
+    "contact.html",
+    "blog-bimatoprost.html",
+    "bibliography-audit.html",
+    "science.html",
+    "terms.html",
+    "blog-hair-cycle.html",
+    "finasteride-hair-loss.html",
+    "clinical-research.html",
+    "find-my-treatment/index.html",
+    "physician-inquiry/index.html"
+  ]
+}

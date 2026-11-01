@@ -1,4 +1,12 @@
-# BioHair X — complete website review
+# BioHair X — cPanel delivery branch
+
+The completed local website files are in **[`cpanel/website/`](cpanel/website/)**. Start with **[`cpanel/DEPLOYMENT.md`](cpanel/DEPLOYMENT.md)** for cPanel file placement and current release requirements.
+
+This branch delivers the existing implementation without rebuilding or redesigning it. The website directory is byte-identical to the completed local working copy. Existing production/review branches are not changed. No production deployment is performed.
+
+The existing forms use the included Python handlers in `cpanel/serve.py`; there are **no PHP handlers**. Plain cPanel/Apache file upload serves the pages but does not run the form API. Real booking/delivery configuration, approved privacy wording and appropriate backend hosting are still required. Noindex protections remain in place pending owner approval.
+
+## Original source archive
 
 This repository branch transfers a review archive. It does not deploy the website.
 

@@ -1,0 +1,32 @@
+{
+  "selected_input": 23,
+  "recovered_input": 160,
+  "display_candidates": 180,
+  "merged_occurrences": 3,
+  "verified_full_text": 5,
+  "category_candidate_counts": {
+    "bimatoprost": 4,
+    "tofacitinib": 81,
+    "melatonin": 76,
+    "finasteride": 19
+  },
+  "provisional_melatonin": 74,
+  "merges": [
+    {
+      "record": "liu-90",
+      "recovered_index": 18,
+      "reason": "exact DOI candidate or normalized title match; primary identity pending where stated"
+    },
+    {
+      "record": "purohit",
+      "recovered_index": 60,
+      "reason": "exact DOI candidate or normalized title match; primary identity pending where stated"
+    },
+    {
+      "record": "piraccini",
+      "recovered_index": 159,
+      "reason": "exact DOI candidate or normalized title match; primary identity pending where stated"
+    }
+  ],
+  "notice": "Counts are deduplicated candidate records, not verified unique publications. Full bibliographic identity cannot be established from corrupt secondary OCR alone. Every original record remains in its source JSON."
+}

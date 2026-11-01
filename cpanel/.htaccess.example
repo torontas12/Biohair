@@ -1,0 +1,8 @@
+# Optional review-only Apache configuration. Do not overwrite existing rules.
+# Keep until the owner separately authorizes a production release.
+Options -Indexes
+<IfModule mod_headers.c>
+    Header always set X-Robots-Tag "noindex, nofollow, noarchive"
+    Header always set X-Content-Type-Options "nosniff"
+</IfModule>
+# Form API hosting is not configured here. See DEPLOYMENT.md.
